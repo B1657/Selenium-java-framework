@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase {
-    By DashBoardImage=By.xpath("//img[contains(@class,'oxd-userdropdown-img')]");
+
     @Test(groups = "smoke")
     public void loginTest() {
 
