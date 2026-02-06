@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class LoginPage {
-    private final WebDriverWait wait;
+    private  WebDriverWait wait;
     private WebDriver driver;
 
 
